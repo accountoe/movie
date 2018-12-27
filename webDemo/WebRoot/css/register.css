@@ -1,0 +1,133 @@
+@CHARSET "UTF-8";
+body{
+	font-size: 12px;
+	color: #666;
+	background: #f2f2f2;
+	font-family: arial,sans-serif;
+	background: #ccc;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	height: 700px;
+	widows: 100%;
+}
+#header{
+	height: 40px;
+	padding: 10px 0 5px 30px;
+}
+
+#header,#content{
+	width: 990px;
+	margin: 0 auto;
+}
+#content{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border:1px solid #ddd;
+	border-top: none;
+	background: #fff;
+	height: 450px;
+}
+.line{
+	width: 750px;
+	height: 50px;
+	padding-top: 9px;
+}
+.line span{
+	float: left;
+	height: 34px;
+	line-height: 34px;
+}
+span.text{
+	width: 190px;
+	text-align: right;
+	font-size: 14px;
+	color: #999;
+	padding-right: 10px;
+}
+.text b{
+	color: red;
+	margin-right: 3px;
+}
+.kuang1{
+	width: 238px;
+	height: 16px;
+	padding: 10px 25px 10px 5px;
+	border: 1px solid #ddd;
+	background-position: 248px center;
+	background-repeat: no-repeat;
+}
+.line input:focus{
+	border-color:#7abd54;
+	outline: none;
+}
+.user{
+	background-image: url(../img/user.jpg);
+}
+.psw{
+	background-image: url(../img/pwd.jpg);
+}
+.yanzheng{
+	width: 100px;
+}
+.phone{
+	background-image: url(../img/phone.jpg);
+}
+.zhuce{
+	width: 270px;
+	height: 36px;
+	border: 0px;
+	margin-left: 200px;
+	background-repeat: no-repeat;
+	background-image: url(../img/regist_btn.jpg);
+}
+.zhuce:hover{
+	background: url(../img/regist_btn_hove.jpg);
+}
+.dsp{
+	background: #f7f7f7;
+	border: 1px solid #ddd;
+	width: 238px;
+	line-height: 34px;
+	padding: 1px 5px;
+	margin-left: 5px;
+}
+.yz_btn{
+	color: #999;
+	width: 100px;
+	line-height: 34px;
+	padding: 1px 5px;
+	text-align: center;
+	background: #f7f7f7;
+	border: 1px solid #ddd;
+	margin-left: 5px;
+}
+.xieyi{
+	margin-left: 200px;
+}
+.xz{
+	height: 34px;
+	padding: 10px 5px;
+	line-height: 34px;
+	font-weight: normal;
+}
+.xz a{
+	color: #005aa0;
+	text-decoration: none;
+}
+.xz a:hover{
+	text-decoration: underline;
+}
+.ipt .zhuce{
+	height: 40px;
+	border: 1px solid black;
+}
+.tijiao, .chongzhi{
+	height: 35px;
+	width: 60px;	
+	margin-right: 40px;
+}

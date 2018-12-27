@@ -1,0 +1,240 @@
+/*通用样式*/
+*{
+	color: #111;
+	border: none;
+	margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 13px;
+   
+	
+}
+body {
+	    background:#555;
+        font: 12px "微软雅黑", Helvetica,Arial,sans-serif;
+        font-size: 12px;
+        line-height: normal;
+        line-height: 1.62;
+}
+img {
+	 max-width: 100%;
+     border: 0;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;  
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:underline;
+}
+/*通用样式*/
+/*header的样式*/
+header{
+	width: 1000px;
+	height: 50px;
+	margin: 10px auto;	
+}
+#header-main ul{
+	 margin-left: 50px;
+}
+#header-main li{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;	
+}
+#header-main li h1{
+	font-weight: bold;
+	color: #333;
+	font-size: 26px;
+	padding-right: 7px;
+}
+#header-main li a{
+	
+	width: 100%;
+	height: 100%;
+	color: #aaa;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	padding-right: 6px;
+}
+#header-main li a:hover{
+	color: #E4393C;
+}
+/*header的样式*/
+/*navi的样式*/
+#navi{
+	margin: 0px auto;
+	width: 1000px;
+	height: 40px;
+	
+}
+#navi-main ul{
+	margin-left: 50px;
+}
+#navi-main li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #999;
+	
+}
+
+#navi-main li a{
+	font-size: 20px;
+}
+#navi-main li #jingdian{
+	font-size: 25px;
+	
+}
+#navi-main a:hover{
+	color: #e4393c;
+}
+/*******添加样式*/
+#navi-right{
+	float: right;
+}
+#navi-right #text{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 20px;
+}
+#navi-right input{
+	width: 180px;
+	height: 30px;
+	line-height:30px;
+}
+#navi-right #submit{
+	float: right;
+	margin-left: 5px;
+	font-style: normal;
+	width: 60px;
+	text-align: center;
+	line-height: 28px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	background: #ccc;
+}
+/******添加样式*********/
+/*navi的样式*/
+/*conten的样式*/
+#content{
+	background: #eee;
+	width: 1000px;
+	height: 550px;
+	margin: 0px auto;
+	border-radius: 3px;
+}
+#content-title{
+	width: 950px;
+	height: 70px;
+	margin-left: 50px;
+	padding-top: 10px;
+}
+#content-title h1{
+	font-size: 25px;
+	font-weight: normal;
+}
+#content-title p{
+	font-size: 20px;
+}
+#details{
+	width: 950px;
+	height: 240px;
+	margin-top: 10px;
+	margin-left: 50px;
+	border: 1px solid red;
+}
+#img{
+	float: left;
+	width: 164px;
+	height: 227px;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 3px 3px #ddd;
+}
+#img img{
+	margin: 2px;
+	width: 160px;
+	height: 225px;
+}
+#introduce{
+	float: left;
+	
+}
+#introduce table{
+	width: 700px;
+	margin-left: 30px;
+}
+#introduce td{
+	height: 25px;
+}
+#juqing{
+	border: 1px solid red;
+	width: 950px;
+	height: 150px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+#juqing div{
+	display: block;
+	margin: 0 20px 0 0;
+}
+#juqing strong{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+}
+#juqing p{
+	text-indent: 2em;
+	font-size: 14px;
+}
+/*conten的样式*/
+/*footer的样式*/
+#footer{
+	border-radius: 3px;
+	background: #eee;
+	width: 1000px;
+	height: 300px;	
+	margin: 30px auto;
+}
+#footer table{
+	border-radius: 5px;
+	background: #999;
+	float: left;
+	margin-top: 40px;
+	margin-left: 50px;
+	table-layout: fixed;
+	width: 640px;
+	height: 218px;
+	text-indent:1em;
+}
+#footer th{
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+}
+#footer td{
+	background: #d5d3d3;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	overflow:hidden;
+    white-space:nowrap; 
+	border-bottom: 1px solid #ddd;
+}
+.a1{
+	color: #3c7bed;
+}
+.a2{
+	color: #39ed35;
+}
+.a3{
+	color: #e6c12d;
+}
+/*footer的样式*/
